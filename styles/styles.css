@@ -3,6 +3,7 @@ nav {
     padding: 10px;
 }
 nav a {
+    /* this is a comment */
     color: white;
     display: block;
     padding: 20px;

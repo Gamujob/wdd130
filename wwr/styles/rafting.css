@@ -61,12 +61,12 @@ nav, p, section, article {
     max-width: 700px;
     margin: 10px;
     padding: 1px;
-    background-color: yellow;
+    background-color: var(--accent2-color);
 }
 
 h2 {
     text-align: center;
-    background-color: blue;
+    background-color: var(--primary-color);
     opacity: 0.7;
     color: var(--secondary-color);
     padding: 10px;

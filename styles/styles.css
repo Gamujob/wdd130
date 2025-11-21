@@ -16,34 +16,34 @@ body {
     --box-shadow: 0 0 30px gray;
     --border: 1px solid black;
     --text-align: center;
+    --color: steelblue;
 }
 
 nav {
-    background-color: steelblue;
+    background-color: var(--color);
     padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
-    /* this is a comment */
+    font-size: 1rem;
+    margin: 10px;
     color: white;
     display: block;
-    padding: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #000;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: brown;
 }
 
 main {
     max-width:660px;
-}
-
-h1 {
-    color: steelblue;
-    padding: .5rem;
-}
-
-img {
-    width: var(--width);
-    height: var(--height);
-    border: var(--border);
-    padding: var(--paddind);
-    box-shadow: var(--box-shadow);
 }
 
 main img {
@@ -56,8 +56,32 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
+h1 {
+    color: var(--color);
+    padding: .5rem;
+    border-bottom: 2px solid var(--color);
+}
+
+img {
+    width: var(--width);
+    height: var(--height);
+    border: var(--border);
+    padding: var(--paddind);
+    box-shadow: var(--box-shadow);
+}
+
 p {
     padding: 1rem;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto 300px;
 }
 
 aside {
@@ -83,9 +107,12 @@ aside h2 {
 }
 
 footer {
-    margin-top: 15px;
-    border-top: var(--border);
-    text-align: var(--text-align);
+    /* margin-top: 15px; */
+    /* border-top: var(--border); */
+    /* text-align: var(--text-align); */
+    background-color: var(--color);
+    color: #1d2226;
+    padding: 2rem 1rem;
 }
 
 /* Class Selectors */

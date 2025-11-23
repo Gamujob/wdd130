@@ -28,7 +28,7 @@ header {
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: space-evenly;
-    background-color: steelblue;
+    background-color: darkblue;
     padding: 10px;
 }
 
@@ -44,7 +44,7 @@ img {
 #logo a {
     text-decoration: none;
     padding: 10px;
-    color: black;
+    color: white;
 }
 
 #logo a:hover {
@@ -73,12 +73,19 @@ nav {
 }
 
 #history {
-    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto;
+}
+
+#history h2 {
+    grid-column: span 4;
 }
 
 #history img {
-    /* display: flex; */
+    justify-content: space-evenly;
     margin: 10px auto;
+    width: 180px;
+    height: auto;
 }
 
 .hero {

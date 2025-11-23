@@ -23,6 +23,34 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: steelblue;
+    padding: 10px;
+}
+
+img {
+    border: 2px solid #000;
+}
+
+#logo img{
+    width: 200px;
+    border: 3px solid rgb(176, 10, 10);
+}
+
+#logo a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+#logo a:hover {
+    color: #b9ae12;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -32,6 +60,25 @@ nav, p, section, article {
     position: relative;
     margin: 15px;
     padding: 8px;
+}
+
+nav {
+    text-decoration: none;
+}
+
+.nav a {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#history {
+    /* display: flex; */
+}
+
+#history img {
+    /* display: flex; */
+    margin: 10px auto;
 }
 
 .hero {
@@ -78,7 +125,24 @@ h2 {
     margin: 10px;
 }
 
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.image-gallery h2 {
+    grid-column: span 5;
+}
+
 .socialmedia a {
     text-decoration: none;
-    width: 10px;
+    max-width: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: blue;
+    color: white;
 }

@@ -28,8 +28,9 @@ header {
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: space-evenly;
-    background-color: darkblue;
+    background-color: blue;
     padding: 10px;
+    color: #fff;
 }
 
 img {
@@ -42,13 +43,14 @@ img {
 }
 
 #logo a {
+    background-color: rgb(20, 212, 97);
     text-decoration: none;
     padding: 10px;
     color: white;
 }
 
 #logo a:hover {
-    color: #b9ae12;
+    color: #8712b9;
 }
 
 h1, h2 {

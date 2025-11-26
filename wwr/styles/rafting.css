@@ -68,14 +68,11 @@ nav, p, section, article {
     padding: 8px;
 }
 
-nav {
-    text-decoration: none;
-}
-
-.nav a {
+.nav {
     display: flex;
     flex-direction: row;
     padding: 10px;
+    text-decoration: none;
 }
 
 #history {

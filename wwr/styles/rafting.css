@@ -108,6 +108,15 @@ button {
     padding: 10px;
 }
 
+.profimg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.profimg h2 {
+    grid-column: span 3;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);

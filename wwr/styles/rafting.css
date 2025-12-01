@@ -3,6 +3,7 @@
     --secondary-color: blue; /* warm sand */
     --accent1-color: #264653; /* dark slate blue */
     --accent2-color: #e9c46a; /* light golden yellow */
+    --achromaticic-color: #fff; /* white */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -30,7 +31,7 @@ header {
     justify-content: space-evenly;
     background-color: blue;
     padding: 10px;
-    color: #fff;
+    color: var(--achromaticic-color);
 }
 
 img {
@@ -38,7 +39,7 @@ img {
 }
 
 #logo {
-    color: #fff;
+    color: var(--achromaticic-color);
 }
 
 #logo img{
@@ -50,7 +51,7 @@ img {
     background-color: rgb(20, 23, 21);
     text-decoration: none;
     padding: 10px;
-    color: white;
+    color: var(--achromaticic-color);
 }
 
 #logo a:hover {
@@ -102,7 +103,7 @@ textarea {
 button {
     background-color: navy;
     border-radius: .5rem;
-    color: #fff;
+    color: var(--achromaticic-color);
     font-size: 1.2rem;
     margin: 1rem;
     padding: 10px;
@@ -119,7 +120,12 @@ button {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    margin: 10px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    opacity: 0.7;
+    color: var(--achromaticic-color);
+    padding: 10px;
 }
 
 nav, p, section, article {
@@ -169,7 +175,7 @@ nav, p, section, article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--achromaticic-color);
 }
 .hero article{
     position: absolute;
@@ -180,14 +186,6 @@ nav, p, section, article {
     background-color: var(--accent2-color);
 }
 
-h1, h2 {
-    margin: 10px;
-    text-align: center;
-    background-color: var(--secondary-color);
-    opacity: 0.7;
-    color: #fff;
-    padding: 10px;
-}
 
 .hero article img {
     float: right;
@@ -215,5 +213,5 @@ footer {
     grid-template-columns: 1fr auto;
     align-items: center;
     background-color: blue;
-    color: white;
+    color: var(--achromaticic-color);
 }

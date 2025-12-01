@@ -70,6 +70,7 @@ form {
 }
 
 legend {
+    text-align: left;
     color: navy;
     margin: 1rem;
     font-size: 1.5rem;

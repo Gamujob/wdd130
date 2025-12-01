@@ -57,6 +57,57 @@ img {
     color: #b100fd;
 }
 
+main {
+    text-align: center;
+}
+
+form {
+    background-color: #ddd;
+    color: #333;
+    display: grid;
+    margin: 10px;
+}
+
+legend {
+    color: navy;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
+div {
+    text-align: left;
+    padding: 5px;
+    margin:0 2rem;
+}
+
+.checkbx, .msg {
+    text-align: left;
+}
+
+
+
+label {
+    margin: 1rem;
+}
+
+input {
+    padding: 7px;
+}
+
+textarea {
+    margin: 0 1rem;
+}
+
+button {
+    background-color: navy;
+    border-radius: .5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 10px;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -120,7 +171,8 @@ nav, p, section, article {
     background-color: var(--accent2-color);
 }
 
-h2 {
+h1, h2 {
+    margin: 10px;
     text-align: center;
     background-color: var(--secondary-color);
     opacity: 0.7;

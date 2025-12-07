@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #055a05; /* forest green */
+    /* --primary-color: #055a05; forest green */
     --secondary-color: blue; /* warm sand */
     --accent1-color: #264653; /* dark slate blue */
     --accent2-color: #e9c46a; /* light golden yellow */
@@ -83,9 +83,7 @@ form {
 
 p {
     text-align: center;
-    /* color: navy; */
     margin: 1rem;
-    font-size: 1.5rem;
 }
 
 

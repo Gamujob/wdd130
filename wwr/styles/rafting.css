@@ -130,10 +130,6 @@ button {
 
 h1 {
     margin: 10px;
-    background-color: var(--secondary-color);
-    color: var(--achromaticic-color);
-    padding: 10px;
-    font-size: 1.5rem;
 }
 
 h2 {

@@ -124,8 +124,9 @@ button {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.profimg h2 {
+.profimg h2, .tripimg h2 {
     grid-column: span 3;
+    background-color: #313102;
 }
 
 h1 {

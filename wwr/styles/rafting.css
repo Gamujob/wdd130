@@ -131,6 +131,8 @@ button {
 
 h1 {
     margin: 10px;
+    left: 0px;
+    max-width: 47rem;
 }
 
 h2 {
